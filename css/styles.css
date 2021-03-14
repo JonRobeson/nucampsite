@@ -1,34 +1,61 @@
 body {
-    font-family: "Inter", sans-serif;
-}
+  font-family: "Open Sans", sans-serif; }
 
-.navbar {
-    background-color: #542451;
-    font-size: 1.5rem;
-}
+h1, h2, h3 {
+  font-family: "Lobster", cursive; }
+
+h2 {
+  color: #3046C5; }
+
+header h2 {
+  color: #CEC8FF; }
+
+.site-footer {
+  background-image: linear-gradient(#CEC8FF, white);
+  padding: 20px 0; }
 
 .jumbotron {
-    padding: 30px;
-    background: #a83ea2;
-    color: white;
-    margin: 0;
-}
+  margin: 0;
+  padding: 30px 30px 30px 0px;
+  background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+  color: white; }
 
-.main-container {
-    padding: 30px;
-}
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge;
+  min-height: 200px; }
 
-p {
-    font-size: 1.5rem;
-}
+.navbar {
+  background-color: #901CAD; }
 
-.modal-header {
-    background-color: #0096dc;
-    color: white;
-}
+.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px; }
 
-footer {
-    background: #3d418b;
-    color: white;
-    padding: 15px;
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+.carousel {
+  border: solid #5637dd; }
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; }
+
+#reserveModal .modal-header {
+  background-color: #17A2B8;
+  color: white; }
+
+#loginModal .modal-header {
+  background-color: #901CAD;
+  color: white; }
+
+  #carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
 }
